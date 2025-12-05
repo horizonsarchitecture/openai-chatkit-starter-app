@@ -3,8 +3,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AgentKit demo",
-  description: "Demo of ChatKit with hosted workflow",
+  title: "SIC-Q Agent",
+  description: "AI-powered assistant by Horizons Architecture",
+  icons: {
+    icon: "/logos/favicon.ico",
+    apple: "/logos/favicon.ico",
+  },
 };
 
 export default function RootLayout({
