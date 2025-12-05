@@ -349,7 +349,7 @@ export function ChatKitPanel({
       <div className="flex items-center gap-3 px-6 py-4 border-b border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
         <img
           src="/logos/logo.svg"
-          alt="AgentKit Logo"
+          alt="Horizons Architecture Logo"
           className="h-8 w-auto dark:invert"
         />
       </div>
@@ -372,6 +372,20 @@ export function ChatKitPanel({
         onRetry={blockingError && errors.retryable ? handleResetChat : null}
         retryLabel="Restart chat"
       />
+      {/* Powered by Footer */}
+      <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center py-2 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700">
+        <span className="text-sm text-slate-500 dark:text-slate-400">
+          Powered by{" "}
+          <a
+            href="https://horizonsarchitecture.ai/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
+          >
+            Horizons Architecture
+          </a>
+        </span>
+      </div>
     </div>
   );
 }

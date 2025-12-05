@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AgentKit demo",
-  description: "Demo of ChatKit with hosted workflow",
+  title: "Horizons Architecture",
+  description: "AI-powered assistant by Horizons Architecture",
   icons: {
     icon: "/logos/favicon.svg",
     apple: "/logos/favicon.svg",
