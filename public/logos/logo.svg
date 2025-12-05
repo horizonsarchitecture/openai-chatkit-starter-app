@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <!-- Icon: Chat bubble with AI spark -->
+  <rect x="2" y="8" width="28" height="24" rx="6" fill="currentColor" class="logo-primary"/>
+  <circle cx="10" cy="20" r="2" fill="white"/>
+  <circle cx="16" cy="20" r="2" fill="white"/>
+  <circle cx="22" cy="20" r="2" fill="white"/>
+  <!-- Spark/AI indicator -->
+  <path d="M26 6 L28 10 L32 8 L30 12 L34 14 L30 14 L32 18 L28 16 L26 20 L26 16 L22 18 L24 14 L20 14 L24 12 L22 8 L26 10 Z" fill="#6366f1"/>
+
+  <!-- Text: AgentKit -->
+  <text x="42" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="currentColor">
+    AgentKit
+  </text>
+</svg>

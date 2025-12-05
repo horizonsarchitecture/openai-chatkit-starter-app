@@ -5,6 +5,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AgentKit demo",
   description: "Demo of ChatKit with hosted workflow",
+  icons: {
+    icon: "/logos/favicon.svg",
+    apple: "/logos/favicon.svg",
+  },
 };
 
 export default function RootLayout({

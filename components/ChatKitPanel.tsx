@@ -345,6 +345,14 @@ export function ChatKitPanel({
 
   return (
     <div className="relative pb-8 flex h-[90vh] w-full rounded-2xl flex-col overflow-hidden bg-white shadow-sm transition-colors dark:bg-slate-900">
+      {/* Logo Header */}
+      <div className="flex items-center gap-3 px-6 py-4 border-b border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
+        <img
+          src="/logos/logo.svg"
+          alt="AgentKit Logo"
+          className="h-8 w-auto dark:invert"
+        />
+      </div>
       <ChatKit
         key={widgetInstanceKey}
         control={chatkit.control}
