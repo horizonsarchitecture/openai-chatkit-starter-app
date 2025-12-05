@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Horizons Architecture",
+  title: "SIC-Q Agent",
   description: "AI-powered assistant by Horizons Architecture",
   icons: {
-    icon: "/logos/favicon.svg",
-    apple: "/logos/favicon.svg",
+    icon: "/logos/favicon.ico",
+    apple: "/logos/favicon.ico",
   },
 };
 
