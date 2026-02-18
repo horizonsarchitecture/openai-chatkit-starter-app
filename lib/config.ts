@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "Proponer una idea",
-    prompt: "Quiero enviar una propuesta para mejorar la ciudad.",
+    label: "Explorar participación ciudadana",
+    prompt: "¿Qué ha expresado la ciudadanía en los procesos participativos sobre los temas prioritarios del estado?",
     icon: "lightbulb",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Escribe tu duda o propuesta...";
+export const PLACEHOLDER_INPUT = "Pregunta, analiza o propone...";
 
-export const GREETING = "¿En qué puedo ayudarte hoy?";
+export const GREETING = "La inteligencia colectiva de Querétaro, a tu alcance.";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
