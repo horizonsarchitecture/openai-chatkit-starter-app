@@ -3,8 +3,8 @@
   <circle cx="18" cy="20" r="14" stroke="currentColor" stroke-width="4" fill="none"/>
   <line x1="24" y1="26" x2="34" y2="36" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
 
-  <!-- Text: SIC-Q Agent -->
+  <!-- Text: SIC-Q -->
   <text x="46" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="currentColor">
-    SIC-Q Agent
+    SIC-Q
   </text>
 </svg>

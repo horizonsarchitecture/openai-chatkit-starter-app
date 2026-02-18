@@ -25,7 +25,7 @@ export default function App() {
       <div className="w-full max-w-5xl mb-4 px-4">
         <img
           src="/logos/logo.svg"
-          alt="SIC-Q Agent Logo"
+          alt="SIC-Q Logo"
           className="h-8 w-auto dark:invert"
         />
       </div>
